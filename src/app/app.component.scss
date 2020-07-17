@@ -1,0 +1,40 @@
+app-root {
+    .header {
+        width: 100%;
+        text-align: center;
+    }
+
+    .title {
+        font-size: x-large;
+        font-weight: bolder;
+    }
+
+    .subtitle {
+        font-size: medium;
+        font-weight: bolder;
+        color: darkgray;
+    }
+
+    .items-container {
+        overflow: auto;
+        white-space: nowrap;
+    }
+
+    .content {
+        text-align: center;
+    }
+
+    .btn {
+        border-radius: .3rem;
+        font-weight: bold;
+    }
+
+    .get-products-btn {
+        background-color: darkturquoise;
+    }
+
+    .add-to-cart-btn {
+        margin-top: 2rem;
+        background-color: darkseagreen;
+    }
+}
